@@ -10,3 +10,5 @@ const rootReducer = combineReducers({
 })
 
 export default rootReducer;
+
+//этот index ничего не делает, он просто остался после рефакторинга на Redux Tookit, как образец.

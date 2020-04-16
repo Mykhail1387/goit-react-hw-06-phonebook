@@ -12,8 +12,8 @@ class ContactListContainer extends Component {
     render() {
         const { contacts } = this.props.contacts;
         const { filter } = this.props;
-
         const filteredContacts = filterContacts(contacts, filter)
+
         return (
             <>
                 <ContactList filteredContacts={filteredContacts} />
